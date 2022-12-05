@@ -1,0 +1,22 @@
+{
+    "name":"개드립 유저메모",
+    "description":"test",
+    "version":"0.1",
+    "permissions": [
+        "scripting", 
+        "activeTab",
+        "storage"
+    ],
+    "manifest_version":3,
+    "content_scripts": [
+        {
+            "matches": ["https://*.dogdrip.net/*"],
+            "run_at": "document_end",
+            "js": ["popup.js"]
+        }
+    ],
+
+    "action":{
+    }
+
+}
