@@ -12,11 +12,12 @@
         {
             "matches": ["https://*.dogdrip.net/*"],
             "run_at": "document_end",
-            "js": ["popup.js"]
+            "js": ["script.js"]
         }
     ],
 
     "action":{
+        "default_popup": "popup.html"
     }
 
 }
